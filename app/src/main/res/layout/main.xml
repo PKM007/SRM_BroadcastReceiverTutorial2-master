@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="horizontal"
+    tools:background="@android:color/holo_orange_light">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/clockbg"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/hr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:"
+            android:textColor="#000000"
+            android:textSize="16pt"></TextView>
+
+        <TextView
+            android:id="@+id/mn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:"
+            android:textColor="#000000"
+            android:textSize="16pt"></TextView>
+
+        <TextView
+            android:id="@+id/sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="#000000"
+            android:textSize="16pt"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Digital Clock"></TextView>
+</RelativeLayout>

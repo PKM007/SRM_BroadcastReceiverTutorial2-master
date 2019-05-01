@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Apr 11 01:50:39 IST 2019
+0.baseType=DIRECTORY
+0.base=E\:\\Android Development\\SRM_BroadcastReceiverTutorial2-master\\app\\build\\intermediates\\assets\\debug
+0.path=MyriadPro-Bold.otf
+0.set=ASSET
+count=1

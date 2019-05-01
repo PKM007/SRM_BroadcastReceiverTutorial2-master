@@ -1,0 +1,4 @@
+#Fri Apr 12 09:51:01 IST 2019
+base.0=E\:\\Android Development\\SRM_BroadcastReceiverTutorial2-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
